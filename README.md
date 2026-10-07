@@ -1,10 +1,14 @@
 # 数学哈哈漫画编辑部
 
-面向小学一至二年级的数学喜剧漫画智能体提示词与协作流程。每篇默认约四页，每页4—6格（优先五格），一个数学思想、两个主要角色。每个主要人物必须有可见的搞笑元素和反复出现的喜剧行为；用愿望、误会、尝试和后果展开故事，再用回扣收尾。
+面向小学一至二年级的数学喜剧漫画智能体提示词与协作流程。最新方向为原创儿童探险队：约四页，每页4—6格（优先五格），一个数学思想，每篇聚焦2—3位人物并可有动物伙伴。至少三个有行动作用的场景，人物造型、夸张表情、环境意外和道具共同制造喜剧。
 
 这是可在聊天窗口或多智能体平台使用的文本创作套件，不是自动运行的应用。不需要安装依赖，也不需要 API 密钥。
 
 ## 开始使用
+
+先看 [用户课程目录与选题](docs/curriculum.md)、[新版人物造型](docs/rainforest-team.md) 和 [场景与转场规则](docs/rainforest-world.md)。已知课程内容优先于早期10以内的默认值。
+
+人物造型与夸张表情可直接看 [新版概念图](outputs/rainforest-team/concept-v1.png)，相关检查记录见 [概念图说明](outputs/rainforest-team/README.md)。该图是角色和场景参考，不是完整教学漫画。
 
 1. 从 [创作任务模板](templates/brief.md) 填写一篇漫画的目标。
 2. 给每个智能体粘贴 [公共提示词](prompts/common.md)，接着粘贴其角色提示词。聊天窗口可以每阶段开一个新对话；无需先部署平台。
@@ -26,9 +30,13 @@
 
 角色是逻辑上的分工；在普通聊天窗口中可以逐个使用，无需同时运行七个模型。
 
-## 三篇示例
+## 最新探险样稿
 
-最新篇幅与人物设定见 [搞笑角色卡](docs/characters.md) 和 [《鱼饼干》四页版](examples/01-fish-crackers-four-pages.md)。四页版已完成，可 [下载完整 PDF](outputs/fish-crackers-four-pages/fish-crackers-four-pages.pdf) 或 [逐页阅读与查看检查记录](outputs/fish-crackers-four-pages/README.md)。下方三个六格示例及已有一页成品保留为早期短篇版本；新稿默认按四页流程制作。
+[《四篮果子的雨林快递》](examples/04-rainforest-fruit-delivery.md)：对应1～6的表内乘法，以“4个3”为唯一目标。人物从营地去果园取物，经蕨叶栈道搬运，到树屋广场交付；四页20格，数学推动实际任务。成品已完成，可 [下载四页 PDF](outputs/rainforest-fruit-delivery/rainforest-fruit-delivery.pdf) 或 [逐页阅读及查看检查记录](outputs/rainforest-fruit-delivery/README.md)。
+
+## 早期小猫示例
+
+早期篇幅与小猫人物设定见 [搞笑角色卡](docs/characters.md) 和 [《鱼饼干》四页版](examples/01-fish-crackers-four-pages.md)。四页版已完成，可 [下载完整 PDF](outputs/fish-crackers-four-pages/fish-crackers-four-pages.pdf) 或 [逐页阅读与查看检查记录](outputs/fish-crackers-four-pages/README.md)。这些成品保留用于版本对照；最新场景和人物要求见上方探险样稿。
 
 | 示例 | 数学思想 | 笑点来源 |
 |---|---|---|
